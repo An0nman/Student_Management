@@ -56,6 +56,10 @@ nav {
     fill: #4ade80; /* Change fill to #4ade80 on hover */
 }
 
+.side_bar{
+    width: 250px;
+    background-color: red;
+}
 
 main {
     padding: 2rem 1rem;

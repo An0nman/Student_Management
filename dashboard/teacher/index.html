@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav>
-        <h1 class="nav-title"><span>Admin</span> Dashboard</h1>
+        <h1 class="nav-title"><span>Welcome</span> Dashboard</h1>
         <!-- Logout Icon -->
         <a href="/logout" class="logout-icon" aria-label="Logout">
           <!-- SVG Logout Icon -->
@@ -28,6 +28,8 @@
         </a>
     </nav>
 
+    <div class="side_bar"></div>
+
     <main class="container">
       <div class="cards-grid">
         <!-- Students Card -->
@@ -43,36 +45,6 @@
             <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
           </svg>
         </div>
-
-        <!-- Teachers Card -->
-        <div class="card" onclick="showTeachersTable()">
-          <div>
-            <p class="card-title">Teachers</p>
-            <h2 class="card-value">48</h2>
-          </div>
-          <svg class="card-icon" viewBox="0 0 24 24">
-            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle>
-          </svg>
-        </div>
-
-        <!-- Classes Card -->
-        <div class="card" onclick="showClassesTable()">
-          <div>
-            <p class="card-title">Classes</p>
-            <h2 class="card-value">56</h2>
-          </div>
-          <svg class="card-icon" viewBox="0 0 24 24">
-              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-            </svg>
-        </div>
-    </div>
-
-        <div class="divider"></div>
-        
-        <!-- table -->
-        <div class="table-container"></div>
     </main>
     <script src="js/script.js"></script>
   </body>
